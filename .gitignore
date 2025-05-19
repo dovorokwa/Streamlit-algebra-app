@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# Streamlit (if any specific cache or session files are generated locally and not needed)
+# .streamlit/secrets.toml # Keep this out if you ever add secrets and don't want them public
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
